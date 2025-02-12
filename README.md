@@ -31,3 +31,16 @@ XXL-JOB: 分布式定时任务调用中心，完成任务调度。
 Docker：容器化技术。
 
 Git：代码管理工具；Git使用，拉代码、提交、推送、合并、冲突解决。
+
+
+注意：
+    项目启动所需有以下服务（版本尽量一致）：
+                                       1.jdk-17
+                                       2.腾讯云人脸识别，证件识别，OSS存储等
+                                       3.开通腾讯地图调度服务
+                                       4.微信小程序位置服务插件
+                                       5.docker中安装redis，nacos-2.1.1, rabbitmq-3.12.0, minio(windows版本也可),mongdb-7.0.0, mysql-8.0.30
+                                       6.https://www.ngrok.cc，注册ngrok，并开通隧道
+                                       7.安装分布式服务seata-serve-1.7.1
+                                       8.启动任务调度中心-xxl-job服务，详情请访问：https://www.xuxueli.com/xxl-job/#google_vignette
+                                       9.微信开发者工具
